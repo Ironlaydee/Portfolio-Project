@@ -11,7 +11,7 @@ header {
 /* Style for the logo */
 .logo img {
     max-width: 100px;
-    height: auto;
+    height: 50px;
 }
 
 /* Style for the navigation button */
@@ -107,7 +107,6 @@ header {
 /* Style for the image */
 .intro img {
     max-width: 100%;
-    border-radius: 50%; /* For a circular image */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
