@@ -6,10 +6,10 @@ body {
 
 header {
     background-color: #fff;
-    padding: 20px;
+    padding: 0px;
 }
 
-.logo img {
+.logo {
     width: 150px;
     height: 150px;
     align-items: left;
@@ -20,15 +20,98 @@ header {
     margin: 10px;
     width: 15px; 
     height: 20px; 
-
-    background-color: #fff;
-    color: #070707;
+    position: relative;
+    align-items: right;
 }
 
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* Style for subtitle intro*/
 .subtitle__intro {
     background-color: #14CFAE;
     color: #303030;
     width: 150px;
     border-left: 150%;
     padding-left: 50px;
+    border: 5px solid grey; 
 }
+
+service 
+/* Style for individual services */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border: 0;
+    text-align: center;
+    background-image:-o-linear-grad
+}
+
+.service {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Style for service headings */
+.services {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/component\ 1.png);
+    background-size: cover;
+    background-position: center; 
+}
+
+.service h3 {
+    font-size: 30px;
+    color: #303030;
+}
+
+/* Style for service paragraphs */
+.service p {
+    font-size: 20px;
+    color: #666;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   }
+
+/* Style for the "My Work" section */
+.my.work {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section__title,
+.section__subtitle {
+    color: #303030;}
+
+footer {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+        
+
+.social-list__item {
+        margin-right: 50px;
+        text-align: center;
+    }

@@ -1,3 +1,5 @@
+
+
 /* Style for the header *
 header {
     display: flex;
@@ -106,8 +108,9 @@ header {
 
 /* Style for the image *
 .intro img {
-    max-width: 100%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 50%;
+    position: relative
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Style for the services section *
