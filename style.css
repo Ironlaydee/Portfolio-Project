@@ -47,6 +47,8 @@ header {
     border: 5px solid grey; 
 }
 
+.
+
 service 
 /* Style for individual services */
 .services {
@@ -87,8 +89,16 @@ service
     color: #666;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: inline-block;
     justify-content: center;
+   }
+   
+.btn {
+    border: none;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    font-size: 40px;
    }
 
 /* Style for the "My Work" section */
@@ -115,3 +125,14 @@ footer {
         margin-right: 50px;
         text-align: center;
     }
+@media screen and (max width: 800px) {
+    .features {
+        background: red;
+    } 
+}
+
+@media screen and (max width: 400px) {
+    .features {
+        background: greenyellow;
+    } 
+}
