@@ -1,15 +1,56 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
 body {
    margin: 0;
-   padding: 0;
    text-align: center;
+   font-family: Raleway, Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto ;
+}
+/*   header   */
 header {
+    /*position:absolute */
     background-color: #fff;
-    padding: 0px;
+    margin-top: 16px;
 }
 
-.logo {
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav__list {
+    display: flex;
+    margin: 0 20px;
+}
+
+.nav__item {
+    padding: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px;
+    border-width: 2px;
+    border-style: ;
+    color: #fff;
+    margin: 5px;
+    font-size: 40px;
+    color: #14cfae;
+   }
+
+   .logo {
     width: 150px;
     height: 150px;
     align-items: left;
@@ -24,19 +65,6 @@ header {
     align-items: right;
 }
 
-.nav__list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.nav__item {
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
 /* Style for subtitle intro*/
 .subtitle__intro {
     background-color: #14CFAE;
@@ -47,9 +75,7 @@ header {
     border: 5px solid grey; 
 }
 
-.
-
-service 
+.service 
 /* Style for individual services */
 .services {
     display: flex;
@@ -93,13 +119,7 @@ service
     justify-content: center;
    }
    
-.btn {
-    border: none;
-    color: #fff;
-    padding: 20px;
-    margin: 5px;
-    font-size: 40px;
-   }
+
 
 /* Style for the "My Work" section */
 .my.work {
@@ -125,14 +145,46 @@ footer {
         margin-right: 50px;
         text-align: center;
     }
-@media screen and (max width: 800px) {
-    .features {
-        background: red;
+
+
+/*    MEDIA       */
+@media screen and (max width: 623px) {
+    .body {
+        margin: 0;
     } 
+    .nav__list {
+        font-size: 10px;
+    }
+    img {
+        width: 80px;
 }
 
-@media screen and (max width: 400px) {
-    .features {
-        background: greenyellow;
-    } 
+@media (min-width:579px) {
+    body {
+        margin: 14px;
+    }
+    .nav__list {
+        font-size: 8px;
+        display: inline-block;
+    }
+    img {
+        width: 100px;
+    }
+}
+
+@media (min-width:400px) {
+    body {
+        margin: 5px;
+    }
+    .nav__list {
+        display: inline-block;
+        font-size: 3px;
+    }
+    img {
+        width: 100px;
+    }
+    .service {
+        max-width: 300px;
+        padding: 20px;
+    }
 }
