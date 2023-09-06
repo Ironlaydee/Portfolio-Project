@@ -13,7 +13,7 @@ img {
 }
 /*   header   */
 header {
-    /*position:absolute */
+    position:absolute 
     background-color: #fff;
     margin-top: 16px;
 }
@@ -75,7 +75,6 @@ header {
     border: 5px solid grey; 
 }
 
-.service 
 /* Style for individual services */
 .services {
     display: flex;
@@ -101,7 +100,8 @@ header {
     padding: 0;
     background-image: url(images/component\ 1.png);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .service h3 {
